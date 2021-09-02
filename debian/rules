@@ -23,3 +23,6 @@ override_dh_auto_build:
 
 override_dh_auto_install:
 	dh_auto_install -- LIBSUBDIR=lib/$(DEB_HOST_MULTIARCH) V=$(VERBOSE)
+
+override_dh_missing: 
+	dh_missing -- --fail-missing
