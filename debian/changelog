@@ -1,3 +1,10 @@
+libbpf (0.2-1ppa1~hirsute1) hirsute; urgency=medium
+
+  * build against ubuntu hirsute
+  * import patch for xdp_desc entry
+
+ -- Lee Chee Yang <chee.yang.lee@intel.com>  Thu, 02 Sep 2021 10:59:58 +0800
+
 libbpf (0.2-1~bpo10+1) buster-backports; urgency=medium
 
   * Rebuild for buster-backports. (Closes: #974975)
